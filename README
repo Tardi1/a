@@ -1,0 +1,26 @@
+"""
+README
+======
+
+1. Создайте и активируйте виртуальное окружение:
+   python -m venv venv
+   source venv/bin/activate  # Linux/macOS
+   venv\Scripts\Activate.ps1  # Windows PowerShell
+
+2. Установите зависимости:
+   pip install -r requirements.txt
+
+3. Установите переменные окружения:
+   export TELEGRAM_TOKEN="ваш_токен"  # Linux/macOS
+   export CSV_PATH="books.csv"        # необязательно, путь к CSV
+   # Windows PowerShell:
+   $Env:TELEGRAM_TOKEN="ваш_токен"
+   $Env:CSV_PATH="books.csv"
+
+4. Запустите бота:
+   python main.py
+
+5. Отправьте боту фото книжной полки с корешками.
+
+6. Результаты сохраняются в CSV-файл (по умолчанию books.csv).
+"""
